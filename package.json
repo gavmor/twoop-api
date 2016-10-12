@@ -1,5 +1,23 @@
 {
   "dependencies": {
-    "twax": "^0.0.1"
+    "koa": "^1.2.4",
+    "koa-path": "^1.0.0",
+    "koa-router": "^5.4.0",
+    "twax": "latest"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "dotenv": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "stage-0",
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js --compilers js:babel-register"
   }
 }
