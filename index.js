@@ -44,10 +44,5 @@ app.use(route('/:handle', regeneratorRuntime.mark(function _callee() {
   }, _callee, this);
 })));
 
-// app.use(function *(){
-//   console.log(arguments)
-//   return twax.taxonomize('quavmo').then(body => Object.assign(this, {body}));
-// });
-
 console.log('listening');
 app.listen(process.env.PORT || 3000);
