@@ -1,5 +1,9 @@
 'use strict';
 
+var _babelPolyfill = require('babel-polyfill');
+
+var _babelPolyfill2 = _interopRequireDefault(_babelPolyfill);
+
 var _dotenv = require('dotenv');
 
 var _dotenv2 = _interopRequireDefault(_dotenv);

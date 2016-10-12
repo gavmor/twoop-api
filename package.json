@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "babel-polyfill": "^6.16.0",
     "dotenv": "^2.0.0",
     "koa": "^1.2.4",
     "koa-path": "^1.0.0",
@@ -19,6 +20,7 @@
     ]
   },
   "scripts": {
-    "start": "node index.js --compilers js:babel-register"
+    "build": "babel src.js --out-file index.js",
+    "start": "node index.js"
   }
 }

@@ -1,3 +1,4 @@
+import babelPolyfill from 'babel-polyfill';
 import dotenv from 'dotenv';
 import Twax from 'twax';
 import koa from 'koa';
