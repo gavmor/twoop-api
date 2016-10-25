@@ -2222,8 +2222,8 @@ tunnel-agent@~0.4.0, tunnel-agent@~0.4.1:
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
 
 twax@latest:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/twax/-/twax-0.0.5.tgz#b6824f250b6c6d9bd7880aaa7c5a5a4d130c8afd"
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/twax/-/twax-0.1.0.tgz#c2d1cc43158d1cd55b0841ea9e562005f931f8fb"
   dependencies:
     bluebird "^3.4.6"
     ramda "^0.22.1"
