@@ -3,9 +3,12 @@
     "babel-polyfill": "^6.16.0",
     "dotenv": "^2.0.0",
     "koa": "^1.2.4",
+    "koa-cors": "^0.0.16",
+    "koa-logger": "^1.3.0",
     "koa-path": "^1.0.0",
     "koa-router": "^5.4.0",
-    "twax": "latest"
+    "nodejs-dashboard": "^0.1.0",
+    "twax": "quavmo/twax"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.16.0",
@@ -21,6 +24,6 @@
   },
   "scripts": {
     "build": "babel src.js --out-file index.js",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   }
 }
