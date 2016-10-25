@@ -23,7 +23,7 @@
     ]
   },
   "scripts": {
-    "build": "babel src.js --out-file index.js",
-    "start": "nodemon index.js"
+    "build:watch": "babel src.js --out-file server.js --presets es2015 --watch",
+    "start:watch": "nodemon server.js"
   }
 }
